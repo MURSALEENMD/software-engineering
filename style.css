@@ -1,0 +1,31 @@
+ <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: hex(174,195,238);
+             background: radial-gradient, hex(174,195,238,1) 0%, rgb(31, 245, 31) 100%);
+        }
+        .main-div div{
+            display: flex;
+            justify-content: center;
+           column-gap: 25px;
+        }
+        
+        .header-second{
+           
+            text-align: center;
+            margin-top: 90px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+        }
+        button{
+            margin-top: 20px;
+            cursor: pointer;
+           
+           
+        }
+        
+    </style>
